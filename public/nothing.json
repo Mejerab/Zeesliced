@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Tech Insights",
+      "subscribers": 32000,
+      "image": "https://img.freepik.com/free-photo/portrait-man-cartoon-style_23-2151133939.jpg"
+    },
+    {
+      "name": "Foodie Chronicles",
+      "subscribers": 58000,
+      "image": "https://img.freepik.com/free-vector/business-man-character_1308-102261.jpg?w=360"
+    },
+    {
+      "name": "Fitness World",
+      "subscribers": 45000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpvPsX2QaxsAxFBsQbMX86oFq-QxBHw1sXxg&s"
+    },
+    {
+      "name": "Travel Tales",
+      "subscribers": 67000,
+      "image": "https://png.pngtree.com/element_our/20190530/ourmid/pngtree-cartoon-man-character-giving-a-speech-image_1252467.jpg"
+    },
+    {
+      "name": "DIY Crafts",
+      "subscribers": 29000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPWEftcKmiE8Jx-CtTp21eAABnAtdaZ2t5uw&s"
+    },
+    {
+      "name": "Gadget Guru",
+      "subscribers": 74000,
+      "image": "https://i.pinimg.com/736x/60/b9/19/60b91970731becf62b31b96029ba45de.jpg"
+    }
+  ]
+  

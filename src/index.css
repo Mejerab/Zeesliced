@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-family: "Quicksand", sans-serif;
+}
+.flex-container iframe{
+    width: 615.6px;
+}
+
+@media (min-width: 300px) and (max-width: 1023px) {
+    .flex-container iframe {
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 12px;
+        /* You can set a max-width */
+        height: 200px;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+.btn-ani {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.btn-ani::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #000;
+    border-radius: 7px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+
+.btn-ani:hover::after {
+    width: 100%;
+}
+
+.btn-ani:hover {
+    color: #EC5252;
+}
+.tra{
+    transition: .3s;
+}
+.cont:hover {
+    color: #000;
+}
+.cont:hover img{
+    transform: translateY(-2px);
+}
